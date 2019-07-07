@@ -3,7 +3,7 @@ node{
 
 stage('SCM checkout'){
  
-  git 'https://github.com/tcdmv/maven1/tree/master/Annotations'
+  git 'https://github.com/tcdmv/SeleniumWithCucucumber.git'
 }
 stage('compile-package'){
 sh'mvn package'
